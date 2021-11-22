@@ -72,6 +72,7 @@ body {
   background-color: var(--first-color-lighten);
   color: var(--text-color);
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 h1,
@@ -592,6 +593,10 @@ img {
   margin: auto;
   text-align: center;
 }
+
+#contact {
+  margin-top: 10rem;
+}
 /*===== FOOTER =====*/
 .footer {
   background-color: var(--first-color-dark);
@@ -686,6 +691,7 @@ img {
     height: 100vh;
     grid-template-rows: max-content 0.5fr;
     align-content: flex-end;
+    margin-top: 48px;
   }
   .home__greeting {
     font-size: 1.25rem;
